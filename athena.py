@@ -17,7 +17,6 @@ Example:
     print("\x1b[1;36;40mHello World\x1b[1;37;40m")
         
 """
-# like it? made it in 1 day
 import urllib.request
 import socket
 import os
@@ -46,7 +45,7 @@ def login():
 
     if enterUser == username and enterPass == password:
         print("\nSuccessfully logged in, redirecting...")
-        time.sleep(2)
+        time.sleep(1)
         tool()
 
     else:
